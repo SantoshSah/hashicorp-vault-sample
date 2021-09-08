@@ -58,8 +58,7 @@ func main() {
 
 	// Data to store
 	data := map[string]interface{}{
-		"key":    "AWS_KEY",
-		"secret": "AWS_SECRET",
+		"key": "AWS_KEY",
 	}
 
 	inputData := map[string]interface{}{
