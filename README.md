@@ -11,5 +11,5 @@ $ brew install hashicorp/tap/vault
 i) Start dev server
 $ vault server -dev
 
-3)
-
+3) Test:
+i) 
