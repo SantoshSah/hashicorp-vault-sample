@@ -13,3 +13,5 @@ $ vault server -dev
 
 3) Test:
 i) This is main branch
+
+4) Local Test:
