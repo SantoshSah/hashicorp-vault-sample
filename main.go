@@ -6,6 +6,7 @@ import (
 	"log"
 	"net/http"
 	"os"
+	"runtime"
 	"time"
 
 	"github.com/hashicorp/vault/api"
@@ -37,6 +38,9 @@ func InitHCVault(rootToken string) (err error) {
 }
 
 func main() {
+	fmt.Println("runtime.GOOS:", runtime.GOOS)
+	fmt.Println("runtime.GOARCH:", runtime.GOARCH)
+
 	// Load .env file
 	err := godotenv.Load(".env")
 	if err != nil {
