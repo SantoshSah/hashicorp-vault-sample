@@ -15,3 +15,5 @@ $ vault server -dev
 i) This is main branch
 
 4) Local Test:
+
+5) Publish to GH container registry
